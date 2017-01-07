@@ -2,7 +2,7 @@ package javatutorials;
 import java.io.*;
 import java.util.*;
 
-public class SearchAlgo {
+public class SearchAlgorithms {
 
 	//Main function
 	public static void main(String args[])
@@ -13,7 +13,7 @@ public class SearchAlgo {
 		 
 		 int [] arr = {1,3,5,7,88,123,443};
 		 
-		 LinearSearch obj1 = new LinearSearch();
+		 SearchAlgorithms obj1 = new SearchAlgorithms();
 		 
 		 obj1.lnrSearch(search,arr);
 		 System.out.println("");
