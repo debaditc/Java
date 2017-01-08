@@ -31,16 +31,13 @@ public class FindSingle {
 		
 				}
 			}
-		
-		}
-		
-		for(i=0;i<fr.length;i++)
-		{
+			//Get all no with 1 frequency
 			if(fr[i]==1)
 			{
 				System.out.println(x[i]);
 			}
+		
 		}
-
+		
 	}
 }
