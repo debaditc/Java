@@ -1,5 +1,5 @@
 
-//Abstract class
+//Abstract class and Encapsulation 
 /*
  * Abstract classes may or may not contain abstract methods, i.e., methods without body ( public void get(); )
 
@@ -10,6 +10,13 @@ If a class is declared abstract, it cannot be instantiated.
 To use an abstract class, you have to inherit it from another class, provide implementations to the abstract methods in it.
 
 If you inherit an abstract class, you have to provide implementations to all the abstract methods in it.
+
+Encapsulation in Java −
+
+Declare the variables of a class as private.
+
+Provide public setter and getter methods to modify and view the variables values.
+
  */
 
 
