@@ -4,9 +4,9 @@ import java.io.*;
 import java.util.*;
 import java.lang.*;
  
-class QuickSort {
+public class QuickSort {
  
-      public static int Partition(int[] numbers, int left, int right)
+      public static int partitions(int[] numbers, int left, int right)
     {
         int pivot = numbers[left];
         while (true)
@@ -35,7 +35,7 @@ class QuickSort {
         // For Recusrion
         if(left < right)
         {
-            int pivot = Partition(arr, left, right);
+            int pivot = partitions(arr, left, right);
  
             if(pivot > 1)                                                                                                                                                                                                                                                 
                 QuickSort_Recursive(arr, left, pivot - 1);
@@ -47,14 +47,11 @@ class QuickSort {
  
     public static void main(String[] args)
     {
-        int[] numbers = { 3, 8, 7, 5, 2, 1, 9, 6, 4 };
- 
-            System.out.println("QuickSort By Recursive Method");
+        int[] numbers = {1,34,124,12,22,114,5,11,22};
         QuickSort_Recursive(numbers, 0, numbers.length - 1);
             for (int i = 0; i < numbers.length; i++)
+            {
                   System.out.println(numbers[i]);
- 
-            System.out.println();
-       
+            }
     }
 }
