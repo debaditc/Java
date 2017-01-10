@@ -43,15 +43,14 @@ public class SubSumArray {
 			}
 				
 		}
-
 		
 		if(fl==1)
 		{
-			System.out.println("Found");
+			System.out.println("True");
 		}
 		else
 		{
-			System.out.println("Not found");
+			System.out.println("False");
 		}
 		
 		
