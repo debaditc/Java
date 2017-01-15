@@ -4,6 +4,8 @@ package javatutorials;
  * Output : 3
  */
 
+/* Time complexity = O(N^2) */
+
 public class FindSingle {
 
 	public static void main(String args[])
