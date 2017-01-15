@@ -3,7 +3,7 @@ import java.util.*;
 /* 
 * Given 1->2->3->4, you should return the list as 2->1->4->3.
 * Given 1->2->3->4->5, you should return the list as 2->1->4->3->5.
-/*
+*/
 public class Swap2Nodes {
 
   public static void main(String args[])
