@@ -41,7 +41,7 @@ public class ClosestSumArray {
 		{
 			path.add(path.size(),arr[i]);
 			dfs(arr,i+1,tar-arr[i],path,res);
-			path.remove(path.size()-1);
+			path.remove(path.size()-1)
 		}
 	}
 	
