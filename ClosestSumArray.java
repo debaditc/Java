@@ -1,7 +1,7 @@
 package javatutorials;
 
 /*
- * Input : [[-2, -1, 1, 5], [-2, 1, 4], [-2, 5], [-1, 1, 3], [-1, 4], [3]]
+ * Input : {1,3,4,5,-1,-2}
  * Target : 2
  * Output : [[-2, -1, 1, 4], [-2, -1, 5], [-2, 1, 3], [-2, 4], [-1, 3]]
  * Concept used : DFS Algorithm
